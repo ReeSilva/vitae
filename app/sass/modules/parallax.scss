@@ -30,6 +30,34 @@ p {
   }
 }
 
+.title-container {
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 7px;
+  background-color: rgba(0,0,0,.2);
+  padding: 5px 15px;
+}
+
+a {
+  &.logo {
+    float: left;
+    width: 160px;
+    height: 77px;
+    margin: 0 auto;
+  }
+
+  &.just-logo {
+    background: url("../img/logo-just-digital.png") no-repeat 0;
+  }
+
+  &.pleimo-logo {
+    background: url("../img/sprite-logos.png") 59% 25px no-repeat;
+  }
+
+  &.betalabs-logo {
+    background: url("../img/logo-betalabs.png") no-repeat left center;
+  }
+}
+
 @media only screen and (max-width : 992px) {
 
   .parallax-container {

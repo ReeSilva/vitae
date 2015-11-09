@@ -10,46 +10,49 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">RSLV</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Experiência Profissional</a></li>
-        <li><a href="#">Formação</a></li>
-        <li><a href="#">Trabalhos Desenvolvidos</a></li>
-        <li><a href="#">Projetos Pessoais</a></li>
-      </ul>
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">RSLV</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#profile-container">ReeSilva</a></li>
+          <li><a href="#professional-experience">Professional Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <!-- <li><a href="#">Formação</a></li> -->
+          <!-- <li><a href="#">Trabalhos Desenvolvidos</a></li> -->
+          <!-- <li><a href="#">Projetos Pessoais</a></li> -->
+        </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Experiência Profissional</a></li>
-        <li><a href="#">Formação</a></li>
-        <li><a href="#">Trabalhos Desenvolvidos</a></li>
-        <li><a href="#">Projetos Pessoais</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#profile-container">ReeSilva</a></li>
+          <li><a href="#professional-experience">Professional Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <!-- <li><a href="#">Formação</a></li> -->
+          <!-- <li><a href="#">Trabalhos Desenvolvidos</a></li> -->
+          <!-- <li><a href="#">Projetos Pessoais</a></li> -->
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="container title-container">
         <br><br>
         <h1 class="header center teal-text text-lighten-2">Renato Silva</h1>
         <div class="row center">
           <h5 class="header col s12 light">A backend developer that works with which language you need.</h5>
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="img/cover.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="img/cover.jpg" alt="Profile Picture"></div>
   </div>
 
 
-  <div class="container">
+  <div id="profile-container" class="container scrollspy">
     <div class="section">
 
       <!--   Icon Section   -->
@@ -77,7 +80,7 @@
             <h2 class="center brown-text"><i class="material-icons">cloud_upload</i></h2>
             <h5 class="center">...and I also can deploy it for u!</h5>
 
-            <p class="light">Yeah, you did not misread. After start and develop the most awesome app you've ever had, I can deploy it for you and also create a system to automatize your deploys. With this, every time that you develop a new tool to your app, you'll have it in production on the click of a button.</p>
+            <p class="light">Yeah, you did not misread. After start and develop the most awesome app you've ever had, I can deploy it for you and also create a system to automatize your deploys, making every change instantaneously online.</p>
           </div>
         </div>
       </div>
@@ -88,24 +91,45 @@
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="container title-container">
+        <h1 class="header center teal-text text-lighten-2">Professional Experience</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">What did I already learn?</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="img/cover-professional.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
-  <div class="container">
+  <div id="professional-experience" class="container scrollspy">
     <div class="section">
 
       <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a class="logo just-logo" href="http://www.justdigital.com.br" title="Just Digital"></a>
+
+            <p class="light">At the beginning working with PHP and Drupal, I helped in the development of the site of the <a href="http://www4.tce.sp.gov.br">"Tribunal de Contas do Estado de São Paulo"</a>. After that, I became DevOps. Working on Infrastructure of company with Linux, I'm also responsible for some automations like provisioning with Ansible and Puppet, Continuous Integration with Jenkins and develop environments using Docker or Vagrant.</p>
+          </div>
         </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a class="logo pleimo-logo" href="http://www.pleimo.com" title="Pleimo"></a>
+
+            <p class="light">I worked with PHP, using the CodeIgniter framework, to develop an streaming single-page application. When I got a part of the app was already developed, but I was part of some important stuffs like register, fav artist discount, favorite rhythms and etc. With Python I developed an application to make backup of some files to Amazon Glacier. Also, I helped on the management of AWS servers and the internal FTP server.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a class="logo betalabs-logo" href="http://www.betalabs.com.br" title="Betalabs"></a>
+
+            <p class="light">I was part of the "GestãoJá" ERP team, developed on PHP with own framework. Using Smarty to manage the templates and Doctrine as ORM, the GestãoJá ERP was elected one of the best online ERP, and I was responsible for some features of it like financial reporting and corrections in customer product listing.</p>
+          </div>
+        </div>
+
       </div>
 
     </div>
@@ -114,9 +138,9 @@
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="container title-container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Contact me. Surely I can transform your needs in the most amazing software you could want.</h5>
         </div>
       </div>
     </div>
@@ -124,7 +148,7 @@
   </div>
 
   <footer class="page-footer teal">
-    <div class="container">
+    <div id="contact" class="container scrollspy">
       <div class="row">
         <div class="col l5 s12">
           <h5 class="white-text">Bio</h5>
