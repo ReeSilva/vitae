@@ -20,7 +20,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 500px;
+  min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -34,7 +34,7 @@ p {
   border: 1px solid rgba(255,255,255,.3);
   border-radius: 7px;
   background-color: rgba(0,0,0,.2);
-  padding: 5px 15px;
+  padding: 5px 10px;
 }
 
 a {
@@ -64,7 +64,7 @@ a {
 
     .section {
       position: absolute;
-      top: 40%;
+      top: 20%;
     }
 
   }
@@ -80,6 +80,10 @@ a {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+
+  .title-container {
+    overflow-x: scroll;
   }
 }
 
