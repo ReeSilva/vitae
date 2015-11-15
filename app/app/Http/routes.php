@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/{locale?}', function ($locale = 'br') {
+    App::setLocale($locale);
     return view('home');
 });
