@@ -1,6 +1,0 @@
-vitae:
-  image: nginx
-  ports:
-    - "8080:80"
-  volumes:
-    - ./app:/usr/share/nginx/html:rw
