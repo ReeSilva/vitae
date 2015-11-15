@@ -13,4 +13,3 @@ storage/
 .env
 .env.example
 public/css
->>>>>>> laravel
