@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Vitae\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
