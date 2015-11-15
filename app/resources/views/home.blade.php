@@ -26,13 +26,13 @@
     <nav class="white" role="navigation">
       <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="brand-logo">RSLV</a>
+        <li class="right locale-flag {{ (Config::get('app.locale') == 'en' ? 'activated' : '') }}"><a href="/en" class="flag-icon flag-icon-us"></a></li>
+        <li class="right locale-flag {{ (Config::get('app.locale') == 'br' ? 'activated' : '') }}"><a href="/" class="flag-icon flag-icon-br"></a></li>
         <ul class="right hide-on-med-and-down">
           <li><a href="#profile-container">ReeSilva</a></li>
           <li><a href="#professional-experience">{{ trans('home.professional-xp-title') }}</a></li>
           <li><a href="#contact">{{ trans('home.contact') }}</a></li>
           <li><a href="http://techdev.reesilva.com" target="_blank">Blog (TechDev)</a></li>
-          <li class="locale-flag {{ (Config::get('app.locale') == 'br' ? 'activated' : '') }}"><a href="/" class="flag-icon flag-icon-br"></a></li>
-          <li class="locale-flag {{ (Config::get('app.locale') == 'en' ? 'activated' : '') }}"><a href="/en" class="flag-icon flag-icon-us"></a></li>
           <!-- <li><a href="#">Formação</a></li> -->
           <!-- <li><a href="#">Trabalhos Desenvolvidos</a></li> -->
           <!-- <li><a href="#">Projetos Pessoais</a></li> -->
@@ -43,8 +43,6 @@
           <li><a href="#professional-experience">{{ trans('home.professional-xp-title') }}</a></li>
           <li><a href="#contact">{{ trans('home.contact') }}</a></li>
           <li><a href="http://techdev.reesilva.com" target="_blank">Blog (TechDev)</a></li>
-          <li class="locale-flag {{ (Config::get('app.locale') == 'br' ? 'activated' : '') }}"><a href="/" class="flag-icon flag-icon-br"></a></li>
-          <li class="locale-flag {{ (Config::get('app.locale') == 'en' ? 'activated' : '') }}"><a href="/en" class="flag-icon flag-icon-us"></a></li>
           <!-- <li><a href="#">Formação</a></li> -->
           <!-- <li><a href="#">Trabalhos Desenvolvidos</a></li> -->
           <!-- <li><a href="#">Projetos Pessoais</a></li> -->
