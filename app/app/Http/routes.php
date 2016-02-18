@@ -22,6 +22,6 @@ Route::get('/{locale}', function ($locale) {
 
 
 Route::get('/{locale}/login', function($locale) {
-  App:setLocale($locale);
+  App::setLocale($locale);
   return view('login');
 });
