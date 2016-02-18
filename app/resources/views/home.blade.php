@@ -32,7 +32,7 @@
           <li><a href="#profile-container">ReeSilva</a></li>
           <li><a href="#professional-experience">{{ trans('home.professional-xp-title') }}</a></li>
           <li><a href="#contact">{{ trans('home.contact') }}</a></li>
-          <li><a href="http://techdev.reesilva.com" target="_blank">Blog (TechDev)</a></li>
+          <!-- <li><a href="http://techdev.reesilva.com" target="_blank">Blog (TechDev)</a></li> -->
           <!-- <li><a href="#">Formação</a></li> -->
           <!-- <li><a href="#">Trabalhos Desenvolvidos</a></li> -->
           <!-- <li><a href="#">Projetos Pessoais</a></li> -->
@@ -42,7 +42,7 @@
           <li><a href="#profile-container">ReeSilva</a></li>
           <li><a href="#professional-experience">{{ trans('home.professional-xp-title') }}</a></li>
           <li><a href="#contact">{{ trans('home.contact') }}</a></li>
-          <li><a href="http://techdev.reesilva.com" target="_blank">Blog (TechDev)</a></li>
+          <!-- <li><a href="http://techdev.reesilva.com" target="_blank">Blog (TechDev)</a></li> -->
           <!-- <li><a href="#">Formação</a></li> -->
           <!-- <li><a href="#">Trabalhos Desenvolvidos</a></li> -->
           <!-- <li><a href="#">Projetos Pessoais</a></li> -->
