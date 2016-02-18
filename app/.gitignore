@@ -14,3 +14,6 @@ storage/
 .env.example
 public/css
 !public/css/flag-icon.css
+
+# Composer Vendor
+vendor
