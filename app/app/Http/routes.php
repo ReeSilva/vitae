@@ -12,16 +12,5 @@
 */
 
 Route::get('/', function() {
-  return Redirect::to('/br');
-});
-
-Route::get('/{locale}', function ($locale) {
-  App::setLocale($locale);
   return view('home');
-});
-
-
-Route::get('/{locale}/login', function($locale) {
-  App::setLocale($locale);
-  return view('login');
 });

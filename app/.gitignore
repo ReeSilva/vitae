@@ -13,4 +13,4 @@ storage/
 .env
 .env.example
 public/css
-!public/css/flag-icon.css
+public/js
