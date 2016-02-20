@@ -16,7 +16,7 @@
 
   @endif
 
-  <form method="POST" action="register">
+  <form method="POST" action="login">
     {!! csrf_field() !!}
 
     <div class="row">
