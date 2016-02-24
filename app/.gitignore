@@ -15,5 +15,17 @@ storage/
 public/css
 public/js
 
-# Ignore files for home
+# Avoid ignore css files for the home of site
+!public/css/fonts/*
 !public/css/creative.css
+!public/css/animate.min.css
+!public/css/css/font-awesome.css
+!public/css/css/font-awesome.min.css
+
+# Avoid ignore js files for the home of site
+!public/js/cbpAnimatedHeader.js
+!public/js/classie.js
+!public/js/creative.js
+!public/js/jquery.easing.min.js
+!public/js/jquery.fittext.js
+!public/js/wow.min.js
