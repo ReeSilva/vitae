@@ -9,7 +9,7 @@
 
     <!-- Open Grapht Meta Tags -->
     <meta property="og:locale" content="pt_BR">
-    <meta property="og:url" content="http://stage.vitae.online">
+    <meta property="og:url" content="http://vitae.online">
     <meta property="og:title" content="Vitae - Seu currículo online">
     <meta property="og:site_name" content="ReeSilva">
     <meta property="og:description" content="Cansado da chatice de fazer e formatar currículos? Quer uma maneira fácil de ter um currículo que pode te garantir um emprego? O Vitae está aqui para você!">
